@@ -61,6 +61,7 @@ def get_sites():
 	for column in columns:
 		for i in scrape(column):
 			result.append(i)
+			print("Program Page:" + i)
 
 	# Theese adresses are problematic so I discarded them
 	result.remove("https://www.gtu.edu.tr/kategori/2201/3/display.aspx?languageId=1")

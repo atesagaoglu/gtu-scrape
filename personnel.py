@@ -43,6 +43,7 @@ def get_personnel_page():
 		link = strs[index+1:]
 
 		personnel_page.append(link)
+		print("Staff Page: " + link)
 
 	return personnel_page
 	
